@@ -1,0 +1,63 @@
+header{
+    background-color: orange;
+    height: 60px;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+
+}
+nav{
+    padding: 0px;
+    position: relative;
+    left: 500px;
+    
+}
+.logo{
+    color: yellow;
+    font-size: 36px;
+    text-decoration: none;
+} 
+
+header nav ul{
+    white-space: nowrap;
+    max-width: 500px;
+    margin: 0 aut0;
+
+}
+header nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 10px;
+    margin-bottom: 40px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: yellow;
+    margin: auto;
+}
+
+.heading1{
+    size: 50px;
+    font-weight: 500;
+    margin: 2% 5%;
+    text-align: center;
+}
+.paragraph{
+    color: orange;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 16px;
+    margin: 2% 5%;
+    text-align: center;
+}
+.image img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 1000px;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
