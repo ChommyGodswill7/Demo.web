@@ -1,9 +1,47 @@
-header{
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: static;
+    top: 0;
+}
+nav h2{
+    color: yellow;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+nav ul li a{
+    color: yellow;
+    font-size: 15px;
+    text-decoration: none;
+}
+/*header{
     background-color: orange;
     height: 60px;
     width: 100%;
-    margin: 20px;
-    padding: 10px;
+    margin: 2% 5%;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    position: sticky;
+    top: 0;
 
 }
 nav{
@@ -21,21 +59,21 @@ nav{
 header nav ul{
     white-space: nowrap;
     max-width: 500px;
-    margin: 0 aut0;
+    
 
 }
 header nav li{
     width: 25%;
     display: inline-block;
     font-size: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 2px;
     
 }
 nav li a{
     text-decoration: none;
     color: yellow;
     margin: auto;
-}
+}*/
 
 .heading1{
     size: 50px;
